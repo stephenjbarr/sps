@@ -24,7 +24,7 @@ require(ggplot2)
 
 
 ## Step 0.1, load system state
-ROOT_PATH <- "/home/stevejb/Projects/THResearch/SPS/"
+ROOT_PATH <- "/sps/"
 STATE_FILE <- paste(ROOT_PATH, "state/state_0.RObj", sep="")
 stopifnot(file.exists(STATE_FILE))
 OUTPUT_DIR <- paste(ROOT_PATH, "output/", sep="")
