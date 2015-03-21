@@ -1,8 +1,8 @@
-["trigger", "/home/stevejb/Projects/THResearch/SPS/data/", {
+["trigger", "/sps/newData/", {
   "name": "call-simple-responder",
   "expression": ["anyof",
        ["match", "*.json", "wholename"]
   ],
-  "command": ["./home/stevejb/Projects/THResearch/SPS/simple-responder.R"],
+  "command": ["./sps/simple-responder.R"],
   "append_files": true
 }]
