@@ -27,8 +27,8 @@ require(ggplot2)
 ROOT_PATH <- "/sps/"
 STATE_FILE <- paste(ROOT_PATH, "state/state_0.RObj", sep="")
 stopifnot(file.exists(STATE_FILE))
-OUTPUT_DIR <- paste(ROOT_PATH, "output/", sep="")
-OUTPUT_PLOTS_DIR <- paste(ROOT_PATH, "output_plots/", sep="")
+OUTPUT_DIR <- paste(ROOT_PATH, "processedData/", sep="")
+OUTPUT_PLOTS_DIR <- paste(ROOT_PATH, "graphicalOutput/", sep="")
 
 ## Step 1
 args   <- commandArgs(trailingOnly = TRUE)
