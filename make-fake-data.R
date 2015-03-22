@@ -16,7 +16,7 @@ pdata <- list(
     )
 
 
-output_fname <- paste("data/", rand_uuid, "__input.json", sep="")
+output_fname <- paste("/sps/newData/", rand_uuid, "__input.json", sep="")
 output_json  <- toJSON(pdata)
 
 fileConn<-file(output_fname)

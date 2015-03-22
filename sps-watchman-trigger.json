@@ -1,8 +1,8 @@
 ["trigger", "/sps/newData/", {
-  "name": "call-simple-responder",
+  "name": "call-simple-responder-2",
   "expression": ["anyof",
        ["match", "*.json", "wholename"]
   ],
-  "command": ["./sps/simple-responder.R"],
+  "command": ["/sps/simple-responder.R"],
   "append_files": true
 }]
